@@ -1,0 +1,93 @@
+* body {
+  background-image: url('../images/yosemitewaterfall.jpg')
+}
+
+h1 {
+  background-color: darkgreen;
+}
+
+h2 {
+  text-align: center;
+  background-color: darkred;
+}
+
+h3 {
+  text-align: center;
+  background-color: yellow;
+}
+
+p {
+  background-color: lightblue;
+  margin-left: 100px;
+  margin-right: 200px;
+}
+
+a {
+  font-family: Georgia, sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: lighter;
+}
+
+img {
+  height: 25%;
+  width: 25%;
+  border-style: solid;
+  border-width: 5px;
+  border-color: lightgreen;
+  border-radius: 25px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+footer {
+  background-color: white;
+}
+
+h2 > p {href
+  font-family: "Advent Pro";font-size: 22px;
+  background-color: lightblue;
+}
+
+thead > tr {
+  text-decoration: underline
+}
+
+.type {
+  font-family: "Didact Gothic";
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.nav {
+  background-color: white;
+}
+
+ol.workoutlist {
+  background-color: white;
+  font-family: "Didact Gothic"
+  font-size: 22px;
+  font-weight: bold;
+}
+
+
+a:hover {
+  background-color: white;
+}
+
+a:visited
+
+
+#navigation {
+  background-color: #B03060
+}
+
+#list {
+  background-color: #30b081
+}
+
+#chart {
+  background-color: #2f9eaf
+}

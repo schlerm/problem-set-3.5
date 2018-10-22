@@ -3,21 +3,22 @@
 <html>
   <head>
     <title>The Types of Climbing</title>
+    <link rel="stylesheet" type="text/css" href="./styles/style.css">
   </head>
 
   <body>
 
     <h1>Navigation Bar</h1>
     <div id="navigation">
-      <a href="./index.html" target="_blank">Climbing Intro</a>
+      <a class="nav" href="./index.html" target="_blank">Climbing Intro</a>
       <br>
-      <a href="./climbingequipment.html" target="_blank">Climbing Equipent</a>
+      <a class="nav" href="./climbingequipment.html" target="_blank">Climbing Equipent</a>
       <br>
-      <a href="./climbingfitness.html" target="_blank">Climbing Fitness</a>
+      <a class="nav" href="./climbingfitness.html" target="_blank">Climbing Fitness</a>
     </div>
 
-    <h1>The Types of Climbing</h1>
-    <ul style="list-style-type:disc">
+    <h1 class="title">The Types of Climbing</h1>
+    <ul style="list-style-type:disc" id="list">
       <li>Bouldering</li>
       <li>Top Tope</li>
       <li>Sport/Lead</li>
@@ -25,8 +26,8 @@
       <li>Big Wall</li>
       <li>Free Soloing</li>
     </ul>
-    <h2>Difficulty/Danger Chart</h2>
-      <table style="width:100%">
+    <h1>Difficulty/Danger Chart</h1>
+      <table style="width:100%" id="chart">
         <thead>
         <tr>
           <td>Bouldering</td>
@@ -59,7 +60,11 @@
       </tfoot>
       </table>
     <hr/>
-    <h2>Bouldering</h2>
+  <div class="types">
+    <style>
+    .types {background-color: lightblue}
+    </style>
+    <h2 class="type">Bouldering</h2>
       <p>Bouldering is the most beginner-friendly type of climbing available. Bouldering generally involves rather
          short climbs of 10-20 feet. The safety equipment is usually only a simple gymnastics mat or portable
          bouldering mat if you are outdoors. You also need a pair of shoes, which is required for all rock climbing,
@@ -76,7 +81,7 @@
       <br>
     <hr/>
       <br>
-      <h2>Top Rope</h2>
+      <h2 class="type">Top Rope</h2>
         <p>Top rope climbing is another popular discipline of the sport. A person is attached to a rope on a pulley at the
           top of a route with a belayer at the bottom. There is little slack, so the climber never falls that hard. The
           routes are usually 30ft or more and do not have a place to top out and stand on at the top unless you are climbing
@@ -91,7 +96,7 @@
       <br>
     <hr/>
       <br>
-      <h2>Sport/Lead Climbing</h2>
+      <h2 class="type">Sport/Lead Climbing</h2>
         <p>Sport or lead climbing is one of the more difficult disciplines of climbing. It involves the climber with the rope below
           them and attaching or "clipping" them to quickdraws, which are carabiners on small strips of strong
           nylon that act as a pulley if the climber falls. They are drilled into the wall. Falls can sometimes be dangerous
@@ -108,7 +113,7 @@
       <br>
     <hr/>
       <br>
-      <h2>Trad Climbing</h2>
+      <h2 class="type">Trad Climbing</h2>
         <p>Trad climbing is when you lead climb and clip into quickdraws that are held into the rock differently. The quick draws are attached
           to small devices called cams or nuts. A cam is a spring loaded device that expands the metal contacts when it is inserted into a crack
           in the wall. When it is pulled on, it expands more and generates more force and friction. A nut is a device that gets wedged into the
@@ -125,18 +130,19 @@
         <br>
       <hr/>
         <br>
-      <h2>Big Wall</h2>
+      <h2 class="type">Big Wall</h2>
         <p>Big wall climbing is simple. It is climbing on massive walls, usually hundreds or thousands of feet high. Think El Capitan or Half
-          Dome in Yosemite National Park. It is usually trad climbing with some bolts along the way or at the end of a pitch.
+          Dome in Yosemite National Park. It is usually trad climbing with some bolts along the way or at the end of a pitch.</p>
         <br>
         <br>
         <img src="./images/halfdome.jpg" height=25% width=25%/>
       <br>
     <hr/>
       <br>
-      <h2>Free Soloing</h2>
+      <h2 class="type">Free Soloing</h2>
         <p>Free soloing is climbing without any safety equipment. It requires extreme mental willpower and endurance. One person famous for
-          free soloing is Alex Honnold.
+          free soloing is Alex Honnold.</p>
+        </div>
         <br>
         <br>
         <img src="./images/honnold.jpg" height=25% width=25%/>
