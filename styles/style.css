@@ -4,22 +4,26 @@
 
 h1 {
   background-color: darkgreen;
+  font-family: Georgia, sans-serif;
 }
 
 h2 {
   text-align: center;
   background-color: darkred;
+  font-family: Georgia, sans-serif;
 }
 
 h3 {
   text-align: center;
   background-color: yellow;
+  font-family: Georgia, sans-serif;
 }
 
 p {
   background-color: lightblue;
   margin-left: 100px;
   margin-right: 200px;
+  font-family: Georgia, sans-serif;
 }
 
 a {
@@ -44,6 +48,7 @@ img {
 
 footer {
   background-color: white;
+  font-family: Georgia, sans-serif;
 }
 
 h2 > p {href
@@ -56,7 +61,7 @@ thead > tr {
 }
 
 .type {
-  font-family: "Didact Gothic";
+  font-family: Georgia, sans-serif;
   font-size: 22px;
   font-weight: bold;
 }
